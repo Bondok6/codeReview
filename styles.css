@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #be3144;
+}
+
+nav ul {
+  min-height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 40px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcome-section {
+  height: 100vh;
+  background-color: #313235;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+.works {
+  height: 50vh;
+  background-color: #45567d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.works h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.projects {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project-tile {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.project a {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  border: 1px solid #be3144;
+  border-radius: 7px;
+  padding: 10px;
+  background: #be3144;
+}
+
+.contact {
+  width: 100vw;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #313235;
+}
+
+.contact h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.contact a {
+  margin: 0 20px;
+  color: #fff;
+  font-size: 2rem;
+}
